@@ -1,0 +1,144 @@
+{
+  "profile": {
+    "name": "Hi, I'm Alban.",
+    "bio": "I design and build AI, VR, and software systems that help people learn, practice, and navigate real-world challenges. My work spans education, clinical training, workforce development, and assistive technology, combining technical architecture, user-centered design, and hands-on development. I have led projects ranging from statewide career guidance platforms to immersive simulations for healthcare, autism inclusion, and conservation education. Across my work, I focus on creating technology that is practical, research-informed, and grounded in the needs of the people who use it.",
+    "image": "images/profile_picture.jpg"
+  },
+  "projects": [
+    {
+      "id": "florida-ready",
+      "type": "default",
+      "logo": {
+        "url": "images/florida-ready/FLReady_Banner.png",
+        "bgColor": "white",
+        "format": "banner"
+      },
+      "title": "Florida Ready",
+      "description": "Florida Ready is an AI-powered career guidance platform designed to help Florida high school students move from uncertainty to action. I led the technical vision and architecture for a mobile-first experience that combines career assessments, personalized career path recommendations, Florida-specific programs and certifications, and interactive interview practice. The platform uses standardized workforce and education data, including SOC and CIP mappings, to connect students with realistic next steps aligned to Florida careers, training options, and credentials.\n\nAt the center of the experience is a system of AI-guided avatars: a Career Counselor for exploration and planning, an Interview Coach for mock interview reflection, and a Personal Assistant for navigation and progress support. These avatars adapt to the student’s context, communication style, and activity history, helping make career planning feel more personal, conversational, and actionable.",
+      "status": "Completed",
+      "tags": [
+        "Career Exploration",
+        "Mock Interview",
+        "Mobile",
+        "AI Agents",
+        "3D Avatars"
+      ],
+      "company": "The Dan Marino Foundation",
+      "carouselType": "portrait",
+      "bannerImage": "images/florida-ready/tablet_avatar_career.png",
+      "carouselImages": [
+        {
+          "url": "images/florida-ready/tablet_avatar_career.png",
+          "caption": "AI Career Counselor avatar conversing with student about career path exploration."
+        },
+        {
+          "url": "images/florida-ready/tablet_programlist.png",
+          "caption": "Students can explore Florida-specific programs and certifications based on their interests and aptitudes."
+        },
+        {
+          "url": "images/florida-ready/quiz.png",
+          "caption": "The career interests quiz helps students discover careers that match their interests."
+        },
+        {
+          "url": "images/florida-ready/plan.png",
+          "caption": "Florida Ready is built on a simple pipeline, take a career interests quiz, find careers that matches your results, explore relevant programs and certifications, and practice interviewing with AI-powered avatars."
+        },
+        {
+          "url": "images/florida-ready/home.png",
+          "caption": "The home screen let's the student quickly access all core features of the application."
+        },
+        {
+          "url": "images/florida-ready/interview_review.png",
+          "caption": "After a mock interview with a 3D avatar, the student can self-score and receive AI-generated feedback and coaching"
+        }
+      ],
+      "links": {
+        "appStore": "https://apps.apple.com/us/app/floridaready/id6737232067",
+        "googlePlay": "https://play.google.com/store/apps/details?id=com.qltechworks.floridaready",
+        "websites": [
+          "https://danmarinofoundation.org/florida-ready/"
+        ]
+      },
+      "dateRange": "July 2025 - June 2026",
+      "role": "Architect & Unity Developer",
+      "techStack": [
+        "C#",
+        "Unity 3D",
+        "REST API",
+        "Firebase",
+        "Google Cloud",
+        ""
+      ]
+    },
+    {
+      "id": "ace-dmf",
+      "type": "default",
+      "logo": {
+        "url": "images/ace-dmf/ace-logo.png",
+        "bgColor": "white",
+        "format": "banner"
+      },
+      "title": "DMF - ACE",
+      "description": "ACE stands for <b>Acceptance, Community, and Education</b>. It is an immersive inclusion training initiative led by the Dan Marino Foundation to help frontline workers, public-facing staff, and community partners better understand and support autistic individuals and adults with disabilities. The program combines autism awareness education, VR-based practice, and guided real-life interactions to build confidence, empathy, and practical communication skills.\n\nAs Director of Technology, I helped lead the design and development of the ACE VR training platform, which uses standalone headsets, hand tracking, voice interaction, and behavior-driven avatars to simulate real-world scenarios. Trainees can practice in guided, coached, and evaluation modes, while an admin dashboard tracks progress, simulation performance, and completion across organizations. The goal of ACE is to move beyond traditional awareness training and create measurable, scalable, and human-centered learning experiences that help communities become more inclusive in everyday situations.",
+      "status": "In Progress",
+      "tags": [
+        "Simulations",
+        "VR",
+        "AI Agents",
+        "3D Avatars"
+      ],
+      "company": "The Dan Marino Foundation",
+      "carouselType": "landscape",
+      "bannerImage": "images/ace-pharmacy-decisions.png",
+      "carouselImages": [
+        {
+          "url": "images/ace-dmf/ace-pharmacy-decisions.png",
+          "caption": "A pharmacy scenario to learn how to approach an info dump"
+        },
+        {
+          "url": "images/ace-dmf/ace-result.png",
+          "caption": "Results are broken down in understandable and actionable metrics"
+        },
+        {
+          "url": "images/ace-dmf/ace-theater-intro.png",
+          "caption": "Scenario description outlines what will be worked on during the simulation"
+        },
+        {
+          "url": "images/ace-dmf/ace-theater-decisions.png",
+          "caption": "The movie theater scenario helps practicing how to approach an unexpected sensory overload situation"
+        },
+        {
+          "url": "images/ace-dmf/ace-theater-decisions.png",
+          "caption": "The movie theater scenario helps practicing how to approach an unexpected sensory overload situation"
+        },
+        {
+          "url": "images/ace-dmf/webapp-pin.png",
+          "caption": "Simple login by getting a pin from the trainee web app."
+        },
+        {
+          "url": "images/ace-dmf/webapp-result.png",
+          "caption": "Trainees can review their simulation performance and progress."
+        },
+        {
+          "url": "images/ace-dmf/admin-org.png",
+          "caption": "Admins can manage organizations and users from a web dashboard."
+        },
+        {
+          "url": "images/ace-dmf/admin-trainee.png",
+          "caption": "Admins can view analytics and progress of trainees."
+        }
+      ],
+      "links": {},
+      "dateRange": "July 2025 - June 2026",
+      "role": "Director of Technology",
+      "techStack": [
+        "C#",
+        "Unity 3D",
+        "REST API",
+        "Firebase",
+        "React",
+        "Node.js"
+      ]
+    }
+  ]
+}
