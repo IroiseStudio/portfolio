@@ -18,6 +18,57 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Render Projects
       if (data.projects) {
+        data.projects.sort((a, b) => (a.ranking || 999) - (b.ranking || 999));
+        
+        // Setup Tag Sorter
+        const filterContainer = document.getElementById('project-tag-sorter');
+        if (filterContainer) {
+          const predefinedTags = [
+            "All",
+            "AI",
+            "VR/XR",
+            "Autism & Accessibility",
+            "Education",
+            "Healthcare",
+            "Workforce",
+            "Research",
+            "Games & Interaction",
+            "Mobile/Web",
+            "Public Impact"
+          ];
+          
+          filterContainer.innerHTML = predefinedTags.map(tag => 
+            `<button class="sort-tag-btn ${tag === 'All' ? 'active' : ''}" data-tag="${tag}">${tag}</button>`
+          ).join('');
+          
+          const filterBtns = filterContainer.querySelectorAll('.sort-tag-btn');
+          filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+              // Update active state
+              filterBtns.forEach(b => b.classList.remove('active'));
+              btn.classList.add('active');
+              
+              const selectedTag = btn.dataset.tag;
+              
+              // Filter logic
+              const articles = container.querySelectorAll('.project-card');
+              articles.forEach(article => {
+                if (selectedTag === 'All') {
+                  article.classList.remove('hidden');
+                } else {
+                  const projectId = article.id;
+                  const projectData = data.projects.find(p => p.id === projectId);
+                  if (projectData && projectData.tags && projectData.tags.includes(selectedTag)) {
+                    article.classList.remove('hidden');
+                  } else {
+                    article.classList.add('hidden');
+                  }
+                }
+              });
+            });
+          });
+        }
+
         data.projects.forEach(project => {
           renderProject(project, container);
         });

@@ -48,6 +48,7 @@ An array of objects representing your portfolio items. Each object can have the 
 | Property | Type | Description | Required |
 |---|---|---|---|
 | `id` | string | Unique identifier for the project (used for internal DOM logic, no spaces). | Yes |
+| `ranking` | number | Sort order for the project (lower numbers appear first). Defaults to bottom if omitted. | Optional |
 | `title` | string | The display title of the project. | Yes |
 | `type` | string | Layout style: `"default"` (two-column) or `"banner"` (wide banner image on top). | Yes |
 | `description` | string | Detailed description of the project. Supports paragraph breaks (`\n\n`). | Yes |
