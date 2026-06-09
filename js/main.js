@@ -91,9 +91,9 @@ function renderProject(project, container) {
 
   // Generate Carousel Slides HTML
   const slidesHtml = project.carouselImages.map((img, index) => `
-    <div class="carousel-slide skeleton-box ${index === 0 ? 'active' : ''}">
+    <div class="carousel-slide skeleton-box ${index === 0 ? 'active' : ''} ${!img.caption ? 'no-caption' : ''}">
       <img src="${img.url}" alt="${project.title} - image ${index + 1}" class="image-fade" onload="this.parentElement.classList.add('loaded')">
-      <div class="carousel-caption">${img.caption}</div>
+      ${img.caption ? `<div class="carousel-caption">${img.caption}</div>` : ''}
     </div>
   `).join('');
 

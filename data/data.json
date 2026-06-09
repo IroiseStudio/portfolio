@@ -1,357 +1,351 @@
 {
-  "profile": {
-    "name": "Hi, I'm Alban.",
-    "bio": "I design and build AI, VR, and software systems that help people learn, practice, and navigate real-world challenges. My work spans education, clinical training, workforce development, and assistive technology, combining technical architecture, user-centered design, and hands-on development. I have led projects ranging from statewide career guidance platforms to immersive simulations for healthcare, autism inclusion, and conservation education. Across my work, I focus on creating technology that is practical, research-informed, and grounded in the needs of the people who use it.",
-    "image": "images/profile_picture.png"
-  },
-  "projects": [
-    {
-      "id": "florida-ready",
-      "ranking": 100,
-      "type": "default",
-      "logo": {
-        "url": "images/florida-ready/FLReady_Banner.png",
-        "bgColor": "white",
-        "format": "banner"
-      },
-      "title": "Florida Ready",
-      "description": "Florida Ready is an AI-powered career guidance platform designed to help Florida high school students move from uncertainty to action. I led the technical vision and architecture for a mobile-first experience that combines career assessments, personalized career path recommendations, Florida-specific programs and certifications, and interactive interview practice. The platform uses standardized workforce and education data, including SOC and CIP mappings, to connect students with realistic next steps aligned to Florida careers, training options, and credentials.\n\nAt the center of the experience is a system of AI-guided avatars: a Career Counselor for exploration and planning, an Interview Coach for mock interview reflection, and a Personal Assistant for navigation and progress support. These avatars adapt to the student’s context, communication style, and activity history, helping make career planning feel more personal, conversational, and actionable.",
-      "status": "Completed",
-      "tags": [
-        "AI",
-        "Education",
-        "Workforce",
-        "Public Impact"
-      ],
-      "company": "The Dan Marino Foundation",
-      "carouselType": "portrait",
-      "bannerImage": "images/florida-ready/tablet_avatar_career.png",
-      "carouselImages": [
-        {
-          "url": "images/florida-ready/tablet_avatar_career.png",
-          "caption": "AI Career Counselor avatar conversing with student about career path exploration."
-        },
-        {
-          "url": "images/florida-ready/tablet_programlist.png",
-          "caption": "Students can explore Florida-specific programs and certifications based on their interests and aptitudes."
-        },
-        {
-          "url": "images/florida-ready/quiz.png",
-          "caption": "The career interests quiz helps students discover careers that match their interests."
-        },
-        {
-          "url": "images/florida-ready/plan.png",
-          "caption": "Florida Ready is built on a simple pipeline, take a career interests quiz, find careers that matches your results, explore relevant programs and certifications, and practice interviewing with AI-powered avatars."
-        },
-        {
-          "url": "images/florida-ready/home.png",
-          "caption": "The home screen let's the student quickly access all core features of the application."
-        },
-        {
-          "url": "images/florida-ready/interview_review.png",
-          "caption": "After a mock interview with a 3D avatar, the student can self-score and receive AI-generated feedback and coaching"
-        }
-      ],
-      "links": {
-        "appStore": "https://apps.apple.com/us/app/floridaready/id6737232067",
-        "googlePlay": "https://play.google.com/store/apps/details?id=com.qltechworks.floridaready",
-        "websites": [
-          "https://danmarinofoundation.org/florida-ready/"
-        ]
-      },
-      "dateRange": "July 2025 - June 2026",
-      "role": "Architect & Unity Developer",
-      "techStack": [
-        "C#",
-        "Unity 3D",
-        "REST API",
-        "Firebase",
-        "Google Cloud",
-        ""
-      ]
-    },
-    {
-      "id": "ace-dmf",
-      "ranking": 200,
-      "type": "default",
-      "logo": {
-        "url": "images/ace-dmf/ace-logo.png",
-        "bgColor": "white",
-        "format": "banner"
-      },
-      "title": "DMF - ACE",
-      "description": "ACE stands for <b>Acceptance, Community, and Education</b>. It is an immersive inclusion training initiative led by the Dan Marino Foundation to help frontline workers, public-facing staff, and community partners better understand and support autistic individuals and adults with disabilities. The program combines autism awareness education, VR-based practice, and guided real-life interactions to build confidence, empathy, and practical communication skills.\n\nAs Director of Technology, I helped lead the design and development of the ACE VR training platform, which uses standalone headsets, hand tracking, voice interaction, and behavior-driven avatars to simulate real-world scenarios. Trainees can practice in guided, coached, and evaluation modes, while an admin dashboard tracks progress, simulation performance, and completion across organizations. The goal of ACE is to move beyond traditional awareness training and create measurable, scalable, and human-centered learning experiences that help communities become more inclusive in everyday situations.",
-      "status": "In Progress",
-      "tags": [
-        "VR/XR",
-        "Autism & Accessibility",
-        "Education",
-        "Public Impact"
-      ],
-      "company": "The Dan Marino Foundation",
-      "carouselType": "landscape",
-      "bannerImage": "images/ace-pharmacy-decisions.png",
-      "carouselImages": [
-        {
-          "url": "images/ace-dmf/ace-pharmacy-decisions.png",
-          "caption": "A pharmacy scenario to learn how to approach an info dump"
-        },
-        {
-          "url": "images/ace-dmf/ace-result.png",
-          "caption": "Results are broken down in understandable and actionable metrics"
-        },
-        {
-          "url": "images/ace-dmf/ace-theater-intro.png",
-          "caption": "Scenario description outlines what will be worked on during the simulation"
-        },
-        {
-          "url": "images/ace-dmf/ace-theater-decisions.png",
-          "caption": "The movie theater scenario helps practicing how to approach an unexpected sensory overload situation"
-        },
-        {
-          "url": "images/ace-dmf/ace-theater-decisions.png",
-          "caption": "The movie theater scenario helps practicing how to approach an unexpected sensory overload situation"
-        },
-        {
-          "url": "images/ace-dmf/webapp-pin.png",
-          "caption": "Simple login by getting a pin from the trainee web app."
-        },
-        {
-          "url": "images/ace-dmf/webapp-result.png",
-          "caption": "Trainees can review their simulation performance and progress."
-        },
-        {
-          "url": "images/ace-dmf/admin-org.png",
-          "caption": "Admins can manage organizations and users from a web dashboard."
-        },
-        {
-          "url": "images/ace-dmf/admin-trainee.png",
-          "caption": "Admins can view analytics and progress of trainees."
-        }
-      ],
-      "links": {},
-      "dateRange": "July 2025 - June 2026",
-      "role": "Director of Technology",
-      "techStack": [
-        "C#",
-        "Unity 3D",
-        "REST API",
-        "Firebase",
-        "React",
-        "Node.js"
-      ]
-    },
-    {
-      "id": "butterfly-world-2",
-      "ranking": 1000,
-      "type": "default",
-      "title": "Butterfly World 2.0",
-      "description": "Butterfly World 2.0 is an immersive VR experience that invites users to explore butterfly ecology, conservation, and environmental change through interactive learning.\n\nBuilding on the original Butterfly World project, which received support from the National Geographic Society, this new version expands the concept into a richer, more engaging virtual environment where players can observe butterfly behavior, understand habitat relationships, and connect scientific concepts to real-world conservation challenges. The project combines VR development, environmental storytelling, and research-informed design to make ecology more accessible, memorable, and emotionally engaging.",
-      "status": "Completed",
-      "tags": [
-        "VR/XR",
-        "Education",
-        "Research",
-        "Public Impact"
-      ],
-      "company": "National Geographic Society",
-      "carouselImages": [],
-      "links": {
-        "websites": [
-          "https://gradschool.fiu.edu/alban-delamarre/"
-        ],
-        "publications": [
-          "https://rethinkingecology.pensoft.net/article/32763/"
-        ]
-      },
-      "dateRange": "",
-      "role": "Creator & Developer",
-      "techStack": [
-        "VR",
-        "Unity"
-      ]
-    },
-    {
-      "id": "daily-buddy",
-      "ranking": 800,
-      "type": "default",
-      "title": "Daily Buddy",
-      "description": "Daily Buddy is an avatar-based mobile assistant designed to help autistic and neurodivergent adults manage daily routines with greater independence. Created before the current wave of AI assistants, the app explored how a customizable digital companion could provide structure, reminders, and step-by-step support in a more approachable way than a standard task-management tool. I led the design and development of the app, focusing on accessible interaction, clear routines, and character-based guidance to make everyday tasks feel more manageable and supportive.",
-      "status": "Completed",
-      "tags": [
-        "Autism & Accessibility",
-        "Mobile/Web",
-        "Public Impact"
-      ],
-      "company": "Independent Project",
-      "carouselImages": [],
-      "links": {},
-      "dateRange": "",
-      "role": "Designer & Developer",
-      "techStack": [
-        "Mobile Development"
-      ]
-    },
-    {
-      "id": "market-mania",
-      "ranking": 700,
-      "type": "default",
-      "title": "Market Mania",
-      "description": "Market Mania is a mobile life-skills game designed to help users practice budgeting, grocery shopping, and decision-making in a playful, low-pressure environment. Players move through interactive shopping challenges that turn everyday tasks into structured learning moments, supporting practical skills like planning, item selection, money management, and following instructions. I helped design and build the experience in Unity, with a focus on making real-world routines more approachable, repeatable, and engaging.",
-      "status": "Completed",
-      "tags": [
-        "Games & Interaction",
-        "Education",
-        "Autism & Accessibility"
-      ],
-      "company": "QL Techworks",
-      "carouselImages": [],
-      "links": {
-        "appStore": "https://apps.apple.com/us/app/market-mania-inc/id1643757402",
-        "googlePlay": "https://play.google.com/store/apps/details?id=com.qltechworks.MarketMania"
-      },
-      "dateRange": "",
-      "role": "Designer & Developer",
-      "techStack": [
-        "Unity",
-        "C#"
-      ]
-    },
-    {
-      "id": "very-real-pizza",
-      "ranking": 600,
-      "type": "default",
-      "title": "Very Real Pizza",
-      "description": "Very Real Pizza is a VR training game that helps users practice recipe-following, customer interaction, and workplace routines in a simulated pizza shop. Players complete food preparation tasks, respond to customer requests, and navigate step-by-step challenges designed to build confidence in real-world service environments. I designed the experience to make vocational training more interactive, repeatable, and engaging, using VR to turn everyday job skills into hands-on practice.",
-      "status": "Completed",
-      "tags": [
-        "VR/XR",
-        "Workforce",
-        "Games & Interaction"
-      ],
-      "company": "Independent Project",
-      "carouselImages": [],
-      "links": {},
-      "dateRange": "",
-      "role": "Designer & Developer",
-      "techStack": [
-        "VR",
-        "Unity"
-      ]
-    },
-    {
-      "id": "sensescape-vr",
-      "ranking": 500,
-      "type": "default",
-      "title": "Sensescape VR",
-      "description": "Sensescape VR is a calming virtual reality environment designed to help users regulate sensory overload and practice relaxation in a safe, customizable space. The experience creates a quiet sensory room where users can explore soothing visuals, gentle interactions, and environmental controls that support comfort and self-regulation. Built in Unity for VR, the project reflects my interest in using immersive technology not only for training, but also for accessibility, emotional support, and everyday well-being.",
-      "status": "Completed",
-      "tags": [
-        "VR/XR",
-        "Autism & Accessibility",
-        "Public Impact"
-      ],
-      "company": "Independent Project",
-      "carouselImages": [],
-      "links": {},
-      "dateRange": "",
-      "role": "Designer & Developer",
-      "techStack": [
-        "VR",
-        "Unity"
-      ]
-    },
-    {
-      "id": "ready2be",
-      "ranking": 300,
-      "type": "default",
-      "title": "Ready2Be",
-      "description": "Ready2Be is a cross-platform interview training system that helps students and job seekers practice communication skills in a structured, supportive environment. The platform combines a Unity mobile app with animated 3D interviewers and a web dashboard where educators can create simulations, review responses, and provide targeted feedback. I led the design and development of the system, focusing on realistic practice, instructor visibility, and tools that make career readiness training more scalable and engaging.",
-      "status": "Completed",
-      "tags": [
-        "Education",
-        "Workforce",
-        "Mobile/Web",
-        "Games & Interaction"
-      ],
-      "company": "Independent Project",
-      "carouselImages": [],
-      "links": {},
-      "dateRange": "",
-      "role": "Designer & Developer",
-      "techStack": [
-        "Unity",
-        "C#",
-        "Web Development"
-      ]
-    },
-    {
-      "id": "nicklaus-vr",
-      "ranking": 400,
-      "type": "default",
-      "title": "Nicklaus Children's Hospital VR",
-      "description": "Nicklaus Children’s Hospital VR Training is an immersive simulation designed to help psychiatric staff practice safety procedures and de-escalation in a realistic clinical environment. The experience recreates hospital rooms and patient interactions in VR, allowing users to practice room searches, patient searches, and response strategies in a controlled, repeatable setting. I led the development of the simulation, working from real clinical workflows and staff input to create scenario-based training that supports confidence, consistency, and safer decision-making.",
-      "status": "Completed",
-      "tags": [
-        "VR/XR",
-        "Healthcare",
-        "Workforce",
-        "Public Impact"
-      ],
-      "company": "Nicklaus Children's Hospital",
-      "carouselImages": [],
-      "links": {},
-      "dateRange": "",
-      "role": "Lead Developer",
-      "techStack": [
-        "VR",
-        "Unity"
-      ]
-    },
-    {
-      "id": "metis",
-      "ranking": 900,
-      "type": "default",
-      "title": "METIS",
-      "description": "METIS is a VR classroom simulation designed to help teachers practice classroom behavior management in a realistic, interactive environment. Developed during my Ph.D. research, the system placed users in a virtual classroom with 30 animated student characters, each capable of displaying different behaviors and responses. The project combined VR development, motion-captured animation, educational research, and behavior-management theory to create a repeatable training environment where teachers could build confidence before entering real classrooms.",
-      "status": "Completed",
-      "tags": [
-        "VR/XR",
-        "Education",
-        "Research"
-      ],
-      "company": "Academic Research",
-      "carouselImages": [],
-      "links": {},
-      "dateRange": "",
-      "role": "Creator & Lead Developer",
-      "techStack": [
-        "VR",
-        "Unity",
-        "Motion Capture"
-      ]
-    },
-    {
-      "id": "hematology-ml",
-      "ranking": 1100,
-      "type": "default",
-      "title": "Comparing Machine Learning Approaches for Hematology Diagnosis",
-      "description": "Comparing Machine Learning Approaches for Hematology Diagnosis was a research project focused on evaluating how different data mining and information extraction methods could support clinical decision-making in hematology. Rather than building a finished product, the work compared multiple technical approaches to understand their strengths, limitations, and diagnostic performance. The project combined applied machine learning, healthcare data analysis, and clinical decision-support research, resulting in published findings on how computational methods could assist complex diagnostic workflows.",
-      "status": "Completed",
-      "tags": [
-        "AI",
-        "Healthcare",
-        "Research"
-      ],
-      "company": "Academic Research",
-      "carouselImages": [],
-      "links": {},
-      "dateRange": "",
-      "role": "Researcher",
-      "techStack": [
-        "Machine Learning",
-        "Data Mining"
-      ]
-    }
-  ]
+	"profile": {
+		"name": "Hi, I'm Alban.",
+		"bio": "I design and build AI, VR, and software systems that help people learn, practice, and navigate real-world challenges. My work spans education, clinical training, workforce development, and assistive technology, combining technical architecture, user-centered design, and hands-on development. I have led projects ranging from statewide career guidance platforms to immersive simulations for healthcare, autism inclusion, and conservation education. Across my work, I focus on creating technology that is practical, research-informed, and grounded in the needs of the people who use it.",
+		"image": "images/profile_picture.png"
+	},
+	"projects": [
+		{
+			"id": "florida-ready",
+			"ranking": 100,
+			"type": "default",
+			"logo": {
+				"url": "images/florida-ready/FLReady_Banner.png",
+				"bgColor": "white",
+				"format": "banner"
+			},
+			"title": "Florida Ready",
+			"description": "Florida Ready is an AI-powered career guidance platform designed to help Florida high school students move from uncertainty to action. I led the technical vision and architecture for a mobile-first experience that combines career assessments, personalized career path recommendations, Florida-specific programs and certifications, and interactive interview practice. The platform uses standardized workforce and education data, including SOC and CIP mappings, to connect students with realistic next steps aligned to Florida careers, training options, and credentials.\n\nAt the center of the experience is a system of AI-guided avatars: a Career Counselor for exploration and planning, an Interview Coach for mock interview reflection, and a Personal Assistant for navigation and progress support. These avatars adapt to the student’s context, communication style, and activity history, helping make career planning feel more personal, conversational, and actionable.",
+			"status": "Completed",
+			"tags": ["AI", "Education", "Workforce", "Public Impact"],
+			"company": "The Dan Marino Foundation",
+			"carouselType": "portrait",
+			"bannerImage": "images/florida-ready/tablet_avatar_career.png",
+			"carouselImages": [
+				{
+					"url": "images/florida-ready/tablet_avatar_career.png",
+					"caption": "AI Career Counselor avatar conversing with student about career path exploration."
+				},
+				{
+					"url": "images/florida-ready/tablet_programlist.png",
+					"caption": "Students can explore Florida-specific programs and certifications based on their interests and aptitudes."
+				},
+				{
+					"url": "images/florida-ready/quiz.png",
+					"caption": "The career interests quiz helps students discover careers that match their interests."
+				},
+				{
+					"url": "images/florida-ready/plan.png",
+					"caption": "Florida Ready is built on a simple pipeline, take a career interests quiz, find careers that matches your results, explore relevant programs and certifications, and practice interviewing with AI-powered avatars."
+				},
+				{
+					"url": "images/florida-ready/home.png",
+					"caption": "The home screen let's the student quickly access all core features of the application."
+				},
+				{
+					"url": "images/florida-ready/interview_review.png",
+					"caption": "After a mock interview with a 3D avatar, the student can self-score and receive AI-generated feedback and coaching"
+				}
+			],
+			"links": {
+				"appStore": "https://apps.apple.com/us/app/floridaready/id6737232067",
+				"googlePlay": "https://play.google.com/store/apps/details?id=com.qltechworks.floridaready",
+				"websites": ["https://danmarinofoundation.org/florida-ready/"]
+			},
+			"dateRange": "July 2025 - June 2026",
+			"role": "Architect & Unity Developer",
+			"techStack": [
+				"C#",
+				"Unity 3D",
+				"REST API",
+				"Firebase",
+				"Google Cloud",
+				""
+			]
+		},
+		{
+			"id": "ace-dmf",
+			"ranking": 200,
+			"type": "default",
+			"logo": {
+				"url": "images/ace-dmf/ace-logo.png",
+				"bgColor": "white",
+				"format": "banner"
+			},
+			"title": "DMF - ACE",
+			"description": "ACE stands for <b>Acceptance, Community, and Education</b>. It is an immersive inclusion training initiative led by the Dan Marino Foundation to help frontline workers, public-facing staff, and community partners better understand and support autistic individuals and adults with disabilities. The program combines autism awareness education, VR-based practice, and guided real-life interactions to build confidence, empathy, and practical communication skills.\n\nAs Director of Technology, I helped lead the design and development of the ACE VR training platform, which uses standalone headsets, hand tracking, voice interaction, and behavior-driven avatars to simulate real-world scenarios. Trainees can practice in guided, coached, and evaluation modes, while an admin dashboard tracks progress, simulation performance, and completion across organizations. The goal of ACE is to move beyond traditional awareness training and create measurable, scalable, and human-centered learning experiences that help communities become more inclusive in everyday situations.",
+			"status": "In Progress",
+			"tags": ["VR/XR", "Autism & Accessibility", "Education", "Public Impact"],
+			"company": "The Dan Marino Foundation",
+			"carouselType": "landscape",
+			"bannerImage": "images/ace-pharmacy-decisions.png",
+			"carouselImages": [
+				{
+					"url": "images/ace-dmf/ace-pharmacy-decisions.png",
+					"caption": "A pharmacy scenario to learn how to approach an info dump"
+				},
+				{
+					"url": "images/ace-dmf/ace-result.png",
+					"caption": "Results are broken down in understandable and actionable metrics"
+				},
+				{
+					"url": "images/ace-dmf/ace-theater-intro.png",
+					"caption": "Scenario description outlines what will be worked on during the simulation"
+				},
+				{
+					"url": "images/ace-dmf/ace-theater-decisions.png",
+					"caption": "The movie theater scenario helps practicing how to approach an unexpected sensory overload situation"
+				},
+				{
+					"url": "images/ace-dmf/ace-theater-decisions.png",
+					"caption": "The movie theater scenario helps practicing how to approach an unexpected sensory overload situation"
+				},
+				{
+					"url": "images/ace-dmf/webapp-pin.png",
+					"caption": "Simple login by getting a pin from the trainee web app."
+				},
+				{
+					"url": "images/ace-dmf/webapp-result.png",
+					"caption": "Trainees can review their simulation performance and progress."
+				},
+				{
+					"url": "images/ace-dmf/admin-org.png",
+					"caption": "Admins can manage organizations and users from a web dashboard."
+				},
+				{
+					"url": "images/ace-dmf/admin-trainee.png",
+					"caption": "Admins can view analytics and progress of trainees."
+				}
+			],
+			"links": {},
+			"dateRange": "July 2025 - June 2026",
+			"role": "Director of Technology",
+			"techStack": [
+				"C#",
+				"Unity 3D",
+				"REST API",
+				"Firebase",
+				"React",
+				"Node.js"
+			]
+		},
+		{
+			"id": "butterfly-world-2",
+			"ranking": 1000,
+			"type": "default",
+			"title": "Butterfly World 2.0",
+			"description": "Butterfly World 2.0 is an immersive VR experience that invites users to explore butterfly ecology, conservation, and environmental change through interactive learning.\n\nBuilding on the original Butterfly World project, which received support from the National Geographic Society, this new version expands the concept into a richer, more engaging virtual environment where players can observe butterfly behavior, understand habitat relationships, and connect scientific concepts to real-world conservation challenges. The project combines VR development, environmental storytelling, and research-informed design to make ecology more accessible, memorable, and emotionally engaging.",
+			"status": "Completed",
+			"tags": ["VR/XR", "Education", "Research", "Public Impact"],
+			"company": "National Geographic Society",
+			"carouselImages": [
+				{
+					"url": "images/butterfly-world/butterfly.png",
+					"caption": ""
+				},
+				{
+					"url": "images/butterfly-world/caterpillar.png",
+					"caption": ""
+				},
+				{
+					"url": "images/butterfly-world/lighthouse.png",
+					"caption": ""
+				}
+			],
+			"links": {
+				"websites": ["https://gradschool.fiu.edu/alban-delamarre/"],
+				"publications": ["https://rethinkingecology.pensoft.net/article/32763/"]
+			},
+			"dateRange": "",
+			"role": "Creator & Developer",
+			"techStack": ["VR", "Unity"]
+		},
+		{
+			"id": "daily-buddy",
+			"ranking": 800,
+			"type": "default",
+			"title": "Daily Buddy",
+			"description": "Daily Buddy is an avatar-based mobile assistant designed to help autistic and neurodivergent adults manage daily routines with greater independence. Created before the current wave of AI assistants, the app explored how a customizable digital companion could provide structure, reminders, and step-by-step support in a more approachable way than a standard task-management tool. I led the design and development of the app, focusing on accessible interaction, clear routines, and character-based guidance to make everyday tasks feel more manageable and supportive.",
+			"status": "Completed",
+			"tags": ["Autism & Accessibility", "Mobile/Web", "Public Impact"],
+			"company": "Independent Project",
+			"carouselImages": [],
+			"links": {},
+			"dateRange": "",
+			"role": "Designer & Developer",
+			"techStack": ["Mobile Development"]
+		},
+		{
+			"id": "market-mania",
+			"ranking": 700,
+			"type": "default",
+			"title": "Market Mania",
+			"description": "Market Mania is a mobile life-skills game designed to help users practice budgeting, grocery shopping, and decision-making in a playful, low-pressure environment. Players move through interactive shopping challenges that turn everyday tasks into structured learning moments, supporting practical skills like planning, item selection, money management, and following instructions. I helped design and build the experience in Unity, with a focus on making real-world routines more approachable, repeatable, and engaging.",
+			"status": "Completed",
+			"tags": ["Games & Interaction", "Education", "Autism & Accessibility"],
+			"company": "QL Techworks",
+			"carouselImages": [],
+			"links": {
+				"appStore": "https://apps.apple.com/us/app/market-mania-inc/id1643757402",
+				"googlePlay": "https://play.google.com/store/apps/details?id=com.qltechworks.MarketMania"
+			},
+			"dateRange": "",
+			"role": "Designer & Developer",
+			"techStack": ["Unity", "C#"]
+		},
+		{
+			"id": "very-real-pizza",
+			"ranking": 600,
+			"type": "default",
+			"title": "Very Real Pizza",
+			"description": "Very Real Pizza is a VR training game that helps users practice recipe-following, customer interaction, and workplace routines in a simulated pizza shop. Players complete food preparation tasks, respond to customer requests, and navigate step-by-step challenges designed to build confidence in real-world service environments. I designed the experience to make vocational training more interactive, repeatable, and engaging, using VR to turn everyday job skills into hands-on practice.",
+			"status": "Completed",
+			"tags": ["VR/XR", "Workforce", "Games & Interaction"],
+			"company": "Independent Project",
+			"carouselImages": [
+				{
+					"url": "images/vr-pizza/pizza.png",
+					"caption": ""
+				},
+				{
+					"url": "images/vr-pizza/ingredients.png",
+					"caption": ""
+				},
+				{
+					"url": "images/vr-pizza/client.png",
+					"caption": ""
+				}
+			],
+			"links": {},
+			"dateRange": "",
+			"role": "Designer & Developer",
+			"techStack": ["VR", "Unity"]
+		},
+		{
+			"id": "sensescape-vr",
+			"ranking": 500,
+			"type": "default",
+			"title": "Sensescape VR",
+			"description": "Sensescape VR is a calming virtual reality environment designed to help users regulate sensory overload and practice relaxation in a safe, customizable space. The experience creates a quiet sensory room where users can explore soothing visuals, gentle interactions, and environmental controls that support comfort and self-regulation. Built in Unity for VR, the project reflects my interest in using immersive technology not only for training, but also for accessibility, emotional support, and everyday well-being.",
+			"status": "Completed",
+			"tags": ["VR/XR", "Autism & Accessibility", "Public Impact"],
+			"company": "Independent Project",
+			"carouselImages": [
+				{
+					"url": "images/sensescape/room.png",
+					"caption": ""
+				},
+				{
+					"url": "images/sensescape/tunnel.png",
+					"caption": ""
+				},
+				{
+					"url": "images/sensescape/rocket.png",
+					"caption": ""
+				},
+				{
+					"url": "images/sensescape/wand.png",
+					"caption": ""
+				},
+				{
+					"url": "images/sensescape/island.png",
+					"caption": ""
+				}
+			],
+			"links": {},
+			"dateRange": "",
+			"role": "Designer & Developer",
+			"techStack": ["VR", "Unity"]
+		},
+		{
+			"id": "ready2be",
+			"ranking": 300,
+			"type": "default",
+			"title": "Ready2Be",
+			"description": "Ready2Be is a cross-platform interview training system that helps students and job seekers practice communication skills in a structured, supportive environment. The platform combines a Unity mobile app with animated 3D interviewers and a web dashboard where educators can create simulations, review responses, and provide targeted feedback. I led the design and development of the system, focusing on realistic practice, instructor visibility, and tools that make career readiness training more scalable and engaging.",
+			"status": "Completed",
+			"tags": ["Education", "Workforce", "Mobile/Web", "Games & Interaction"],
+			"company": "Independent Project",
+			"carouselImages": [],
+			"links": {},
+			"dateRange": "",
+			"role": "Designer & Developer",
+			"techStack": ["Unity", "C#", "Web Development"]
+		},
+		{
+			"id": "nicklaus-vr",
+			"ranking": 400,
+			"type": "default",
+			"title": "Nicklaus Children's Hospital VR",
+			"description": "Nicklaus Children’s Hospital VR Training is an immersive simulation designed to help psychiatric staff practice safety procedures and de-escalation in a realistic clinical environment. The experience recreates hospital rooms and patient interactions in VR, allowing users to practice room searches, patient searches, and response strategies in a controlled, repeatable setting. I led the development of the simulation, working from real clinical workflows and staff input to create scenario-based training that supports confidence, consistency, and safer decision-making.",
+			"status": "Completed",
+			"tags": ["VR/XR", "Healthcare", "Workforce", "Public Impact"],
+			"company": "Nicklaus Children's Hospital",
+			"carouselImages": [
+				{
+					"url": "images/nch/ps_interaction.png",
+					"caption": ""
+				},
+				{
+					"url": "images/nch/rs_room.png",
+					"caption": ""
+				},
+				{
+					"url": "images/nch/rs_dispose.png",
+					"caption": ""
+				},
+				{
+					"url": "images/nch/rs_report.png",
+					"caption": ""
+				},
+				{
+					"url": "images/nch/rs_score.png",
+					"caption": ""
+				},
+				{
+					"url": "images/nch/ps_tablet.png",
+					"caption": ""
+				}
+			],
+			"links": {},
+			"dateRange": "",
+			"role": "Lead Developer",
+			"techStack": ["VR", "Unity"]
+		},
+		{
+			"id": "metis",
+			"ranking": 900,
+			"type": "default",
+			"title": "METIS",
+			"description": "METIS is a VR classroom simulation designed to help teachers practice classroom behavior management in a realistic, interactive environment. Developed during my Ph.D. research, the system placed users in a virtual classroom with 30 animated student characters, each capable of displaying different behaviors and responses. The project combined VR development, motion-captured animation, educational research, and behavior-management theory to create a repeatable training environment where teachers could build confidence before entering real classrooms.",
+			"status": "Completed",
+			"tags": ["VR/XR", "Education", "Research"],
+			"company": "Academic Research",
+			"carouselImages": [],
+			"links": {},
+			"dateRange": "",
+			"role": "Creator & Lead Developer",
+			"techStack": ["VR", "Unity", "Motion Capture"]
+		},
+		{
+			"id": "hematology-ml",
+			"ranking": 1100,
+			"type": "default",
+			"title": "Comparing Machine Learning Approaches for Hematology Diagnosis",
+			"description": "Comparing Machine Learning Approaches for Hematology Diagnosis was a research project focused on evaluating how different data mining and information extraction methods could support clinical decision-making in hematology. Rather than building a finished product, the work compared multiple technical approaches to understand their strengths, limitations, and diagnostic performance. The project combined applied machine learning, healthcare data analysis, and clinical decision-support research, resulting in published findings on how computational methods could assist complex diagnostic workflows.",
+			"status": "Completed",
+			"tags": ["AI", "Healthcare", "Research"],
+			"company": "Academic Research",
+			"links": {},
+			"dateRange": "",
+			"role": "Researcher",
+			"techStack": ["Machine Learning", "Data Mining"],
+			"carouselImages": [
+				{
+					"url": "images/hematology-ml/icon.png",
+					"caption": ""
+				}
+			]
+		}
+	]
 }

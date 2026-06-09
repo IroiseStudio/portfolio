@@ -448,6 +448,10 @@ header {
   object-fit: cover;
 }
 
+.carousel-slide.no-caption img {
+  height: 100%;
+}
+
 .carousel-caption {
   height: 60px;
   padding: 0.5rem 1rem;
