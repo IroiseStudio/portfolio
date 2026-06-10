@@ -318,7 +318,12 @@
 			"links": {},
 			"dateRange": "",
 			"role": "Designer & Developer",
-			"techStack": ["VR", "Unity"]
+			"techStack": ["VR", "Unity"],
+			"logo": {
+				"url": "images/sensescape/logo.png",
+				"bgColor": "white",
+				"format": "square"
+			}
 		},
 		{
 			"id": "ready2be",
@@ -353,7 +358,7 @@
 				}
 			],
 			"links": {},
-			"dateRange": "",
+			"dateRange": "July 2023 - June 2024",
 			"role": "Designer & Developer",
 			"techStack": ["Unity", "C#", "Web Development"]
 		},
