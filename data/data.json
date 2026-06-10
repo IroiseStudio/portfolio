@@ -391,8 +391,23 @@
 			"status": "Completed",
 			"tags": ["VR/XR", "Education", "Research"],
 			"company": "Academic Research",
-			"carouselImages": [],
-			"links": {},
+			"carouselImages": [
+				{
+					"url": "images/metis/jordan.png",
+					"caption": ""
+				},
+				{
+					"url": "images/metis/hmd2.png",
+					"caption": ""
+				},
+				{
+					"url": "images/metis/emotions.png",
+					"caption": ""
+				}
+			],
+			"links": {
+				"publications": ["https://web.enib.fr/~buche/article/CW_20.pdf"]
+			},
 			"dateRange": "",
 			"role": "Creator & Lead Developer",
 			"techStack": ["VR", "Unity", "Motion Capture"]
