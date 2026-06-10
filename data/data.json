@@ -54,7 +54,15 @@
 			},
 			"dateRange": "July 2025 - June 2026",
 			"role": "Architect & Lead Developer",
-			"techStack": ["C#", "Unity 3D", "REST API", "Firebase", "Google Cloud"]
+			"techStack": [
+				"C#",
+				"Unity 3D",
+				"REST API",
+				"Firebase",
+				"Google Cloud",
+				"AI Agents",
+				"OpenAI"
+			]
 		},
 		{
 			"id": "ace-dmf",
@@ -107,14 +115,18 @@
 			],
 			"links": {},
 			"dateRange": "July 2025 - June 2026",
-			"role": "Director of Technology",
+			"role": "Architect & Technical Lead",
 			"techStack": [
 				"C#",
 				"Unity 3D",
 				"REST API",
 				"Firebase",
 				"React",
-				"Node.js"
+				"Node.js",
+				"AI Agents",
+				"Decision Tree",
+				"ElevenLabs",
+				"Anthropic"
 			]
 		},
 		{
@@ -185,10 +197,14 @@
 					"caption": ""
 				}
 			],
-			"links": {},
+			"links": {
+				"publications": [
+					"https://link.springer.com/chapter/10.1007/978-3-031-93061-4_13"
+				]
+			},
 			"dateRange": "2021 - 2023",
 			"role": "Designer & Developer",
-			"techStack": ["Mobile Development"],
+			"techStack": ["Unity", "C#", "Mobile Development"],
 			"logo": {
 				"url": "images/db/logo.png",
 				"bgColor": "white",
@@ -270,7 +286,7 @@
 			"links": {},
 			"dateRange": "June 2024 - December 2024",
 			"role": "Designer & Developer",
-			"techStack": ["VR", "Unity"],
+			"techStack": ["VR", "Unity", "C#", "Meta Quest"],
 			"logo": {
 				"url": "images/vr-pizza/logo.png",
 				"bgColor": "white",
@@ -353,7 +369,7 @@
 			"links": {},
 			"dateRange": "July 2023 - June 2024",
 			"role": "Designer & Developer",
-			"techStack": ["Unity", "C#", "Web Development"],
+			"techStack": ["Unity", "C#", ".NET", "React", "Node.js"],
 			"logo": {
 				"url": "images/r2b/r2b.png",
 				"bgColor": "white",
@@ -398,7 +414,7 @@
 			"links": {},
 			"dateRange": "July 2023 - January 2024",
 			"role": "Lead Developer",
-			"techStack": ["VR", "Unity"]
+			"techStack": ["VR", "Unity", "C#", "Meta Quest"]
 		},
 		{
 			"id": "metis",
@@ -424,11 +440,18 @@
 				}
 			],
 			"links": {
-				"publications": ["https://web.enib.fr/~buche/article/CW_20.pdf"]
+				"publications": [
+					"https://www.proquest.com/openview/28c1cbcdf405dd25866712ed8bbe81ca/1?pq-origsite=gscholar&cbl=18750&diss=y",
+					"https://ieeexplore.ieee.org/abstract/document/9240533",
+					"https://dl.acm.org/doi/abs/10.1145/3308532.3329419",
+					"https://cdn.aaai.org/ocs/15487/15487-68699-1-PB.pdf",
+					"https://ieeexplore.ieee.org/abstract/document/9288454",
+					"https://dl.acm.org/doi/abs/10.1145/3308532.3329439"
+				]
 			},
 			"dateRange": "2016 - 2020",
 			"role": "Creator & Lead Developer",
-			"techStack": ["VR", "Unity", "Motion Capture"]
+			"techStack": ["VR", "Unity", "Motion Capture", "C#", "CAVE", "HMD"]
 		},
 		{
 			"id": "hematology-ml",
@@ -439,7 +462,11 @@
 			"status": "Completed",
 			"tags": ["AI", "Healthcare", "Research"],
 			"company": "Academic Research",
-			"links": {},
+			"links": {
+				"publications": [
+					"https://link.springer.com/chapter/10.1007/978-3-030-20518-8_10"
+				]
+			},
 			"dateRange": "2015 - 2016",
 			"role": "Researcher",
 			"techStack": ["Machine Learning", "Data Mining"],
