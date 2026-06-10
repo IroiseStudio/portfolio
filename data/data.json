@@ -169,7 +169,29 @@
 			"status": "Completed",
 			"tags": ["Autism & Accessibility", "Mobile/Web", "Public Impact"],
 			"company": "Independent Project",
-			"carouselImages": [],
+			"carouselType": "portrait",
+			"carouselImages": [
+				{
+					"url": "images/db/ar.png",
+					"caption": ""
+				},
+				{
+					"url": "images/db/home.png",
+					"caption": ""
+				},
+				{
+					"url": "images/db/custom.png",
+					"caption": ""
+				},
+				{
+					"url": "images/db/calendar.png",
+					"caption": ""
+				},
+				{
+					"url": "images/db/video.png",
+					"caption": ""
+				}
+			],
 			"links": {},
 			"dateRange": "",
 			"role": "Designer & Developer",
@@ -184,7 +206,33 @@
 			"status": "Completed",
 			"tags": ["Games & Interaction", "Education", "Autism & Accessibility"],
 			"company": "QL Techworks",
-			"carouselImages": [],
+			"carouselType": "portrait",
+			"carouselImages": [
+				{
+					"url": "images/mm/MM-Fruits.png",
+					"caption": ""
+				},
+				{
+					"url": "images/mm/MM-StartList.png",
+					"caption": ""
+				},
+				{
+					"url": "images/mm/MM-TitleScreen.png",
+					"caption": ""
+				},
+				{
+					"url": "images/mm/MM-Payment.png",
+					"caption": ""
+				},
+				{
+					"url": "images/mm/card.png",
+					"caption": ""
+				},
+				{
+					"url": "images/mm/selfcheckout.png",
+					"caption": ""
+				}
+			],
 			"links": {
 				"appStore": "https://apps.apple.com/us/app/market-mania-inc/id1643757402",
 				"googlePlay": "https://play.google.com/store/apps/details?id=com.qltechworks.MarketMania"
@@ -266,7 +314,29 @@
 			"status": "Completed",
 			"tags": ["Education", "Workforce", "Mobile/Web", "Games & Interaction"],
 			"company": "Independent Project",
-			"carouselImages": [],
+			"carouselType": "portrait",
+			"carouselImages": [
+				{
+					"url": "images/r2b/r2b_interview_kristina.png",
+					"caption": ""
+				},
+				{
+					"url": "images/r2b/r2b_home.png",
+					"caption": ""
+				},
+				{
+					"url": "images/r2b/r2b_admin_org.png",
+					"caption": ""
+				},
+				{
+					"url": "images/r2b/r2b_assignment.png",
+					"caption": ""
+				},
+				{
+					"url": "images/r2b/r2b_review.png",
+					"caption": ""
+				}
+			],
 			"links": {},
 			"dateRange": "",
 			"role": "Designer & Developer",
