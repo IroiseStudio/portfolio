@@ -648,6 +648,10 @@ header {
     margin: 0 auto;
   }
   
+  .social-links {
+    justify-content: center;
+  }
+  
   .project-meta {
     justify-content: flex-start;
   }
