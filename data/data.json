@@ -195,7 +195,12 @@
 			"links": {},
 			"dateRange": "",
 			"role": "Designer & Developer",
-			"techStack": ["Mobile Development"]
+			"techStack": ["Mobile Development"],
+			"logo": {
+				"url": "images/db/logo.png",
+				"bgColor": "white",
+				"format": "square"
+			}
 		},
 		{
 			"id": "market-mania",
@@ -239,7 +244,12 @@
 			},
 			"dateRange": "",
 			"role": "Designer & Developer",
-			"techStack": ["Unity", "C#"]
+			"techStack": ["Unity", "C#"],
+			"logo": {
+				"url": "images/mm/logo.png",
+				"bgColor": "white",
+				"format": "square"
+			}
 		},
 		{
 			"id": "very-real-pizza",
@@ -267,7 +277,12 @@
 			"links": {},
 			"dateRange": "",
 			"role": "Designer & Developer",
-			"techStack": ["VR", "Unity"]
+			"techStack": ["VR", "Unity"],
+			"logo": {
+				"url": "images/vr-pizza/logo.png",
+				"bgColor": "white",
+				"format": "square"
+			}
 		},
 		{
 			"id": "sensescape-vr",
