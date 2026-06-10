@@ -156,9 +156,14 @@
 				"websites": ["https://gradschool.fiu.edu/alban-delamarre/"],
 				"publications": ["https://rethinkingecology.pensoft.net/article/32763/"]
 			},
-			"dateRange": "",
+			"dateRange": "2019 - 2022",
 			"role": "Creator & Developer",
-			"techStack": ["VR", "Unity"]
+			"techStack": ["VR", "Unity"],
+			"logo": {
+				"url": "images/butterfly-world/logo.png",
+				"bgColor": "white",
+				"format": "banner"
+			}
 		},
 		{
 			"id": "daily-buddy",
@@ -193,7 +198,7 @@
 				}
 			],
 			"links": {},
-			"dateRange": "",
+			"dateRange": "2021 - 2023",
 			"role": "Designer & Developer",
 			"techStack": ["Mobile Development"],
 			"logo": {
@@ -242,7 +247,7 @@
 				"appStore": "https://apps.apple.com/us/app/market-mania-inc/id1643757402",
 				"googlePlay": "https://play.google.com/store/apps/details?id=com.qltechworks.MarketMania"
 			},
-			"dateRange": "",
+			"dateRange": "June 2022 - December 2022",
 			"role": "Designer & Developer",
 			"techStack": ["Unity", "C#"],
 			"logo": {
@@ -275,7 +280,7 @@
 				}
 			],
 			"links": {},
-			"dateRange": "",
+			"dateRange": "June 2024 - December 2024",
 			"role": "Designer & Developer",
 			"techStack": ["VR", "Unity"],
 			"logo": {
@@ -316,7 +321,7 @@
 				}
 			],
 			"links": {},
-			"dateRange": "",
+			"dateRange": "January 2024 - June 2024",
 			"role": "Designer & Developer",
 			"techStack": ["VR", "Unity"],
 			"logo": {
@@ -360,7 +365,12 @@
 			"links": {},
 			"dateRange": "July 2023 - June 2024",
 			"role": "Designer & Developer",
-			"techStack": ["Unity", "C#", "Web Development"]
+			"techStack": ["Unity", "C#", "Web Development"],
+			"logo": {
+				"url": "images/r2b/r2b.png",
+				"bgColor": "white",
+				"format": "square"
+			}
 		},
 		{
 			"id": "nicklaus-vr",
@@ -398,7 +408,7 @@
 				}
 			],
 			"links": {},
-			"dateRange": "",
+			"dateRange": "July 2023 - January 2024",
 			"role": "Lead Developer",
 			"techStack": ["VR", "Unity"]
 		},
@@ -428,7 +438,7 @@
 			"links": {
 				"publications": ["https://web.enib.fr/~buche/article/CW_20.pdf"]
 			},
-			"dateRange": "",
+			"dateRange": "2016 - 2020",
 			"role": "Creator & Lead Developer",
 			"techStack": ["VR", "Unity", "Motion Capture"]
 		},
@@ -442,7 +452,7 @@
 			"tags": ["AI", "Healthcare", "Research"],
 			"company": "Academic Research",
 			"links": {},
-			"dateRange": "",
+			"dateRange": "2015 - 2016",
 			"role": "Researcher",
 			"techStack": ["Machine Learning", "Data Mining"],
 			"carouselImages": [
