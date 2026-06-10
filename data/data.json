@@ -53,15 +53,8 @@
 				"websites": ["https://danmarinofoundation.org/florida-ready/"]
 			},
 			"dateRange": "July 2025 - June 2026",
-			"role": "Architect & Unity Developer",
-			"techStack": [
-				"C#",
-				"Unity 3D",
-				"REST API",
-				"Firebase",
-				"Google Cloud",
-				""
-			]
+			"role": "Architect & Lead Developer",
+			"techStack": ["C#", "Unity 3D", "REST API", "Firebase", "Google Cloud"]
 		},
 		{
 			"id": "ace-dmf",
@@ -78,7 +71,6 @@
 			"tags": ["VR/XR", "Autism & Accessibility", "Education", "Public Impact"],
 			"company": "The Dan Marino Foundation",
 			"carouselType": "landscape",
-			"bannerImage": "images/ace-pharmacy-decisions.png",
 			"carouselImages": [
 				{
 					"url": "images/ace-dmf/ace-pharmacy-decisions.png",
@@ -91,10 +83,6 @@
 				{
 					"url": "images/ace-dmf/ace-theater-intro.png",
 					"caption": "Scenario description outlines what will be worked on during the simulation"
-				},
-				{
-					"url": "images/ace-dmf/ace-theater-decisions.png",
-					"caption": "The movie theater scenario helps practicing how to approach an unexpected sensory overload situation"
 				},
 				{
 					"url": "images/ace-dmf/ace-theater-decisions.png",
