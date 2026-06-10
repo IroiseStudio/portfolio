@@ -1,8 +1,20 @@
 {
 	"profile": {
 		"name": "Hi, I'm Alban.",
-		"bio": "I design and build AI, VR, and software systems that help people learn, practice, and navigate real-world challenges. My work spans education, clinical training, workforce development, and assistive technology, combining technical architecture, user-centered design, and hands-on development. I have led projects ranging from statewide career guidance platforms to immersive simulations for healthcare, autism inclusion, and conservation education. Across my work, I focus on creating technology that is practical, research-informed, and grounded in the needs of the people who use it.",
-		"image": "images/profile_picture.png"
+		"bio": "I am a technical leader and architect with a Ph.D. who designs, builds, and ships immersive VR, AI, and mobile systems that help people learn, practice, and navigate real-world challenges. My work spans education, clinical training, workforce development, and assistive technology, pairing technical architecture and team leadership with hands-on Unity and C# development. I have led projects from statewide career guidance platforms to immersive simulations for healthcare, autism inclusion, and conservation education, owning the technical direction and building alongside the teams that deliver them. Across all of it, I focus on technology that is practical, research-informed, and grounded in the needs of the people who use it.",
+		"image": "images/profile_picture.png",
+		"socials": [
+			{
+				"name": "LinkedIn",
+				"url": "https://www.linkedin.com/in/alban-delamarre/",
+				"icon": "bx bxl-linkedin"
+			},
+			{
+				"name": "GitHub",
+				"url": "https://github.com/IroiseStudio",
+				"icon": "bx bxl-github"
+			}
+		]
 	},
 	"projects": [
 		{

@@ -9,6 +9,15 @@ document.addEventListener('DOMContentLoaded', () => {
       if (data.profile) {
         document.getElementById('profile-name').textContent = data.profile.name;
         document.getElementById('profile-bio').textContent = data.profile.bio;
+        
+        // Render Socials
+        const socialsContainer = document.getElementById('profile-socials');
+        if (socialsContainer && data.profile.socials) {
+          socialsContainer.innerHTML = data.profile.socials.map(social => 
+            `<a href="${social.url}" target="_blank" class="social-link" title="${social.name}"><i class='${social.icon}'></i> ${social.name}</a>`
+          ).join('');
+        }
+
         const profileImg = document.getElementById('profile-img');
         profileImg.classList.add('image-fade');
         profileImg.parentElement.classList.add('skeleton-box');
